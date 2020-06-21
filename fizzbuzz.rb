@@ -4,10 +4,10 @@ require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    "FIZZBUZZ"
+    return "FIZZBUZZ"
   elsif number % 3 == 0 && number % 5 != 0
-    "Fizz"
+    return "Fizz"
   elsif number % 5 == 0 && number % 3 != 0
-    "Buzz"
+    return "Buzz"
   end  
 end
